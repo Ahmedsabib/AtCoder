@@ -15,7 +15,6 @@ int main()
 	for(int i = 1; i < N; ++i){
 		long long diff = abs(Arr[i-1]-Arr[i]);
 		ans += min(diff*A, B);
-		//ans += diff;
 	}
 	cout << ans << '\n';
 	return 0;
