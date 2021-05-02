@@ -2,7 +2,7 @@
 
 int main() {
     using namespace std;
-    ios_base::sync_with_stdio(false), cin.tie(nulong longptr);
+    ios_base::sync_with_stdio(false), cin.tie(nullptr);
     
     long long N; cin >> N;
    	long long ans = 15;
